@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Capstone Project",
+  "version": "2.0",
+  "chrome_url_overrides" : {
+    "newtab": "netab.html"
+  },
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "tabs"
+   ]
+}
+
