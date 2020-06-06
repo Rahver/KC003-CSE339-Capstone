@@ -1,0 +1,15 @@
+{
+	"name": {
+		"message": "Capstone project"
+	},
+	"description": {
+		"message": "This is a capstone project for securing users made by KC003 - CSE339"
+	},
+	
+	"banned_text": {
+		"message": "Seems like this site is not secure, your sensitive & personal data might be at risk. Hackers can take advantage of HTTP vulnerable websites to steal your personal information such as bank account information, credit card details, username, passwords etc! Are you sure you want to continue ?"
+	},
+	"open_once": {
+		"message": "I understand the risks, let me use the website"
+	}
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<body scroll ="no" style="overlow:hifdden">
+<style>
+.container1 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 170%; 
+}
+.container2 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 170%;
+}
+.container3 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 170%;
+}
+.container4 {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+
+
+
+
+<table style= "width:100%"  >
+  <tr>
+    <th rowspan="10">
+	<div class="container1">
+  <iframe class="responsive-iframe" src="https://feeds.feedburner.com/TheHackersNews" scrolling="no"></iframe>
+</div>
+	</th>
+  </tr>
+    <tr>
+    <th rowspan="10">
+	<div class="container2">
+  <iframe class="responsive-iframe" src="tips.html" scrolling="yes"></iframe>
+</div>
+</th>
+  </tr>
+    <tr>
+    <th rowspan="10">
+	<div class="container3">
+  <iframe class="responsive-iframe" src="https://mylocation.org/" scrolling="no"></iframe>
+</div>
+	</th>
+  </tr>
+</table>
+
+
+
+</body>
+</html>

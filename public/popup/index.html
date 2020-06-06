@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title data-i18n="about_ext_name"></title>
+	<link href="style.css" rel="stylesheet">
+	<style>
+body { width: 400px; margin: 0; color: #343434 }
+#loading { text-align: center; height: 150px; padding-top: 120px;  }
+#main { background: #ffffff; text-align: center; font: "Ubuntu", "Tahoma", "Helvetica", "Arial"; margin: 5px; border: 5px solid #f2f2f2; border-radius: 10px; padding-top: 0; padding-bottom: 10px }
+
+#reload { text-align: left; font-size: 11px; padding: 2px 0 0 5px }
+#ipwelcome { font-size: 13px; padding-top: 15px; line-height: 14px }
+#ip { font-size: 34px;  }
+
+#locationwelcome { font-size: 13px; line-height: 14px; margin-top: 10px  }
+#location { font-size: 18px; line-height: 20px }
+
+#ispwelcome {  font-size: 13px; line-height: 14px; margin-top: 10px  }
+#isp { font-size: 18px; line-height: 20px }
+
+#lastchecks { padding: 0 10px; text-align: left; margin: 20px 0 20px 0; }
+.lastcheck { font: normal 12px Arial; border: 1px solid #ececec; padding: 3px 4px; border-radius: 3px; margin: 0 0 4px 0 }
+.lastips { font: bold 13px Arial; line-height: 18px }
+
+#broughtby { margin-top: 40px; font-size: 13px; color: #bbbbbb }
+a { color: #00acc6 }
+a:hover { color: #007283; text-decoration: none }
+</style>
+</head>
+<body>
+	<div id='loading'><img src='loading.gif' alt='' /></div>
+	
+	<div id='main'>
+		<img src="/images/banner.png">
+		<div id='ipwelcome'>Your IP address is</div>
+		<div id='ip'><span id='ip_inner'></span></div>
+		<div id='locationwelcome'>Your (approximate) physical location is</div>
+		<div id='location'></div>
+		<div id='ispwelcome'>Your internet service provider is</div>
+		<div id='isp'></div>
+
+
+	
+<script type='text/javascript' src='popup.js'></script>
+<hr>
+<span style="color: #ff0000;"><strong>Red icon:</strong></span> Website is not using secure HTTPS
+<span style="color: #339966;"><strong>Green icon:</strong></span> website is using HTTPS and is secure
+<span style="color: #ffff00;"><strong>Yellow icon:</strong></span> you are seeing a local secure page
+<p style="text-align: center;"><strong>Online Security &amp; Privacy Tips</strong></p>
+<span style="color: #000000;">Use</span> <span style="color: #ff6600;"><strong>Anti-Virus</strong></span> Protection &amp; Firewall
+<span style="color: #000000;"> | Use Strong &amp; Different</span> <span style="color: #ffcc00;"><strong>Passwords</strong></span>
+<span style="color: #000000;"> | Use</span> <span style="color: #0000ff;"><strong>Two-Factor Authentication</strong></span> for login
+<span style="color: #000000;"> | Don’t Use</span> <span style="color: #ff0000;"><strong>Public Wi-Fi</strong></span>
+<span style="color: #000000;"> | Protect Your</span> <span style="color: #ffcc00;"><strong>Sensitive Personal Information</strong></span>
+<span style="color: #000000;"> | Use Your</span> <span style="color: #cc99ff;"><strong>Mobile Devices</strong></span> Securely
+</body>
+</html>
